@@ -8,6 +8,21 @@ A lightweight web server that adapts files (only images) for every different mac
 - Add IPv6 support
 - Different policy for log file writing
 
+# Usage
+- Install dependencies
+- run 'install.sh'
+- run 'adaptiveserver'
+
 # Dependencies
 - libWURFL (https://github.com/filosganga/libwurfl)
 - ImageMagick (http://www.imagemagick.org/script/magick-wand.php)
+
+# License
+
+This program is copyright 2016 Andrea Silvi.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the `GNU General Public License`_ for more details.
+
+.. _`GNU General Public License`: http://www.gnu.org/licenses/
