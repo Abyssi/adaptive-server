@@ -1,4 +1,4 @@
-# adaptive-server
+# Adaptive Server
 A lightweight web server written in C that adapts files (only images) for every different machine.
 It uses libWURFL to retrieve device capabilities relative to the User-Agent, then manipulates images according to these infiormations.
 (currenty under development)
