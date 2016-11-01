@@ -9,5 +9,5 @@ A lightweight web server that adapts files (only images) for every different mac
 - Different policy for log file writing
 
 # Dependencies
-libWURFL (https://github.com/filosganga/libwurfl)
-ImageMagick (http://www.imagemagick.org/script/magick-wand.php)
+- libWURFL (https://github.com/filosganga/libwurfl)
+- ImageMagick (http://www.imagemagick.org/script/magick-wand.php)
