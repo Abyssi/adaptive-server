@@ -1,7 +1,8 @@
 # Adaptive Server
 A lightweight web server written in C that adapts files (only images) for every different machine.
 It uses WURFL to retrieve device capabilities relative to the User-Agent, then manipulates files according to these infiormations.
-(currenty under development)
+
+(currenty under development and not high quality code)
 
 # TO-DO
 - Add hashmap for files cache
