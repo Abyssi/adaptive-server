@@ -1,17 +1,19 @@
 # adaptive-server
-A lightweight web server that adapts files (only images) for every different machine.
+A lightweight web server written in C that adapts files (only images) for every different machine.
+It uses libWURFL to retrieve device capabilities relative to the User-Agent, then manipulates images according to these infiormations.
 (currenty under development)
 
 # TO-DO
 - Add hashmap for files cache
 - Implement Pre-Threading
 - Add IPv6 support
-- Different policy for log file writing
+- Different policy for log file writing (maybe another thread/process that add logs to queue and wirtes to file whene necessary)
 
 # Usage
 - Install dependencies
-- run 'install.sh'
-- run 'adaptiveserver'
+- Run 'install.sh' inside development folder
+- Run 'adaptiveserver'
+- Drink a beer with your firends :)
 
 # Dependencies
 - libWURFL (https://github.com/filosganga/libwurfl)
